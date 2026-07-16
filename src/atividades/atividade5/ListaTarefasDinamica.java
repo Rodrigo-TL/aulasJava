@@ -18,7 +18,7 @@ public class ListaTarefasDinamica {
             String entrada = scanner.nextLine().trim();
 
             if (entrada.equalsIgnoreCase("fim")) {
-                break; // Interrompe o laço imediatamente
+                break;
             }
 
             if (!entrada.isEmpty()) {
