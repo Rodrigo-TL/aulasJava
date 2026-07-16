@@ -1,6 +1,6 @@
 package atividades.atividade4;
 
-public class sistemaCorrigido {
+public class SistemaCorrigido {
 
     public static void main(String[] args) {
 
