@@ -9,16 +9,13 @@ public class ListaTarefasDinamica {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         ArrayList<String> listaTarefasDinamica = new ArrayList<>();
 
         System.out.println("Introduza as suas tarefas (na última tarefa digite 'fim' para terminar):");
 
-
         while (true) {
             System.out.print("Tarefa: ");
             String entrada = scanner.nextLine().trim();
-
 
             if (entrada.equalsIgnoreCase("fim")) {
                 break; // Interrompe o laço imediatamente
@@ -28,7 +25,6 @@ public class ListaTarefasDinamica {
                 listaTarefasDinamica.add(entrada);
             }
         }
-
 
         System.out.println("\nTotal de tarefas registadas: " + listaTarefasDinamica.size());
 
