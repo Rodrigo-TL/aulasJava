@@ -28,7 +28,6 @@ public class AnalisadorDeTemperaturas {
                 menor = temperaturas[i];
             }
         }
-
         System.out.println("\nTemperaturas: " + Arrays.toString(temperaturas));
         System.out.println("Maior temperatura: " + maior + "ºC");
         System.out.println("Menor temperatura: " + menor + "ºC");
