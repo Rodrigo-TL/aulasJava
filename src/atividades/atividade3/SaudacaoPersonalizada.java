@@ -2,7 +2,7 @@ package atividades.atividade2;
 
 import java.util.Scanner;
 
-public class saudacaoPersonalizada {
+public class SaudacaoPersonalizada {
 
 
     public static void imprimirSaudacao(String nome) {
