@@ -18,7 +18,6 @@ public class analisadorDeTemperaturas {
         }
 
         double maior = temperaturas[0];
-
         double menor = temperaturas[0];
 
         for (int i = 1; i < temperaturas.length; i++) {
