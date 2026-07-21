@@ -12,13 +12,22 @@ import Aulas.encapsulamento.banco.modelo.ContaBancaria;
  */
 public class Main {
     public static void main(String[] args) {
-        ContaBancaria minhaConta = new ContaBancaria("Fulano", 123456);
-        minhaConta.setTitular("Felipe");
-        System.out.println(minhaConta.getTitular());
+        // Primeira conta
 
-        minhaConta.deposistar(100);
+        ContaBancaria minhaConta = new ContaBancaria("Felipe");
+        minhaConta.depositar(100);
+        System.out.println("Titular: " + minhaConta.getTitular() + " | Conta: " + minhaConta.getNumeroDaConta() + " | Saldo: R$ " + minhaConta.getSaldo());
 
+        System.out.println("--------------------------------------------------");
+
+       //segunda conta
         ContaBancaria pessoa1 = new ContaBancaria("Fulano");
-        ContaBancaria pessoa2 = new ContaBancaria("Robso");
+        System.out.println("Titular: " + pessoa1.getTitular() + " | Conta: " + pessoa1.getNumeroDaConta() + " | Saldo: R$ " + pessoa1.getSaldo());
+
+        //terceira conta
+        ContaBancaria pessoa2 = new ContaBancaria("Robson");
+        System.out.println("Titular: " + pessoa2.getTitular() + " | Conta: " + pessoa2.getNumeroDaConta() + " | Saldo: R$ " + pessoa2.getSaldo());
     }
+
+
 }
